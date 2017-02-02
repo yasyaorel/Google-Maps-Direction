@@ -1,0 +1,50 @@
+body {
+    background-color: #F0FFFF;
+    color: #27408B;
+}
+
+.container {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.direction {
+    display: inline-block;
+    width: 40%;
+}
+
+.direction p {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.direction input {
+    width: 50%;
+    font-size: 20px;
+    padding-left: 10px;
+    outline-style: none;
+    border: 2px solid #FFDAB9;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.direction button {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #27408B;
+    outline-style: none;
+    padding: 10px;
+    background: #FFDAB9;
+    border: 2px solid #FFDAB9;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#map {
+    display: inline-block;
+    vertical-align: top;
+    width: 85%;
+    margin: 1%;
+    height: 500px;
+    border: 5px solid #FFDAB9;
+}

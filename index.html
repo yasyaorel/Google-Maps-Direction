@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Google Direction</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="direction">
+            <p>от точки "a":
+                <input type="text" name="pointA">
+            </p>
+            <p>к точке "b":
+                <input type="text" name="pointB">
+            </p>
+            <br>
+            <button name="button">проложить маршрут!</button>
+        </div>
+        <div id="map"></div>
+    </div>
+    <script async src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
